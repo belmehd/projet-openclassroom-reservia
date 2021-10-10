@@ -1,0 +1,432 @@
+/* CSS resumé :
+ligne 10 à 33 CSS global
+ligne 34 à 143 CSS header
+ligne 144 à 197 CSS header NAV
+ligne 198 à 204 CSS section
+ligne 205 à  CSS section : article hébergement
+ligne  à  CSS section : aside
+ligne  à  CSS section : article activités
+ligne  à  CSS footer*/
+/* CSS global */
+@font-face {
+    font-family: 'Raleway-VariableFont_wght.ttf';
+    src: url('Raleway-VariableFont_wght.ttf');
+}
+.bloc-page
+{
+	padding: 3%;
+	font-family: 'Raleway-VariableFont_wght.ttf'
+}
+i
+{
+	display: flex;
+	align-items: center;
+	color: #0065FC;
+}
+h1
+{
+	font-size: 1.6em;
+	font-weight: bold;
+	margin: 1em;
+	display: flex;
+	justify-content: space-between;
+}
+/* CSS header */
+header
+{
+	display: flex;
+	flex-direction: column;
+	width: 65%;
+}
+.tetedepage img
+{
+	width: 15%;
+	height: 3.5em;
+	margin-right: 50em;
+}
+.navimg
+{
+	display: flex;
+	width: 100%;
+	height: 3.5em;
+}
+.tetedepage
+{
+	display: flex;
+	flex-direction: column;
+}
+.texteentetegras
+{
+	font-size: 2em;
+	font-weight: bold;
+	margin-bottom: 0px;
+	margin-top: 0.5em;
+}
+.texteentete
+{
+	font-size: 1.2em;
+}
+input
+{
+	width: 60%;
+	font-size: 1.2em;
+}
+.input
+{
+	margin-bottom: 1em;
+	display: flex;
+	width: 30em;
+	height: 3em;
+}
+
+.input i
+{
+	width: 9%;
+	display: flex;
+    justify-content: center;
+    color: black;
+    background: #F2F2F2;
+    border-radius: 20px 0px 0px 20px;
+}
+.recherche
+{
+	width: 30%;
+    display: flex;
+    font-size: 1.3em;
+    color: white;
+    background: #0065FC;
+    border-radius: 0px 20px 20px 0px;
+    justify-content: center;
+    align-items: center;
+}
+.filtres
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.filtres p
+{
+	font-weight: bold;
+}
+.filtre
+{
+	border:3px solid #F2F2F2;
+	border-radius: 25px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	width: 22%;
+	text-align: center;
+	color: black;
+	font-weight: black;
+}
+.filtre:hover
+{
+	background-color: #DEEBFF;
+}
+.filtresa
+{
+	display: flex;
+	width: 47%;
+	justify-content: space-between;
+}
+.filtrea
+{
+	border:3px solid #F2F2F2;
+	border-radius: 25px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	width: 47%;
+	text-align: center;
+	color: black;
+	font-weight: black;
+}
+.filtrea:hover
+{
+	background-color: #DEEBFF;
+}
+.una:visited
+{
+	color: black;
+}
+.una
+{
+	text-decoration: none;
+	display: flex;
+	width: 100%;
+	height: 100%;
+}
+.un
+{
+	background-color: #DEEBFF;
+	border-radius: 25px;
+	height: 91%;
+	width: 22%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 2px;
+}
+.uno
+{
+	background-color: #DEEBFF;
+	border-radius: 25px;
+	height: 91%;
+	width: 22%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 2px;
+}
+.deux
+{
+	margin: auto;
+}
+.info
+{
+	align-items: center;
+    display: flex;
+}
+.info i
+{
+	border-radius: 15px;
+    display: flex;
+    height: 1.5em;
+    border: 1px solid #F2F2F2;
+    margin-right: 1em;
+    width: 1.5em;
+    justify-content: center;
+}
+/* CSS header NAV */
+.navun
+{
+	color:#0065FC;
+}
+.navun:visited
+{
+	color:#0065FC;
+}
+.navun:hover
+{
+	color:#22ece3;
+}
+.navdeux
+{
+	color:black;
+}
+.navdeux:visited
+{
+	color:black;
+}
+.navdeux:hover
+{
+	color:#22ece3;
+}
+.navtrois
+{
+	color:#0065FC;
+	font-weight: bold;
+}
+.navtrois:visited
+{
+	color:#0065FC;
+}
+.navtrois:hover
+{
+	color:#22ece3;
+}
+.HetA
+{
+	display: flex;
+}
+.li
+{
+	padding-left: 1.2em;
+	padding-right: 1.2em;
+	font-size: 1.6em;
+}
+.li a
+{
+	text-decoration: none;
+}
+.lie
+{
+	margin-left: 1.2em;
+	margin-right: 1.2em;
+	font-size: 1.6em;
+}
+.lie a
+{
+	text-decoration: none;
+}
+/* CSS section */
+section
+{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.pgras
+{
+	font-weight: bold;
+}
+/* CSS section : article hébergement */
+.article1
+{
+	background-color: #F2F2F2;
+	width: 60%;
+	border-radius: 35px;
+	margin-bottom: 2em;
+}
+.article1 img
+{
+	width: 200px;
+	height: 130px;
+	border-radius: 20px 20px 0px 0px;
+}
+.article1 figcaption
+{
+	padding: 0.3em;
+}
+.articleun
+{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-content: space-around;
+}
+.articleun p
+{
+	margin: 0px;
+}
+.imgarticleun
+{
+	display: flex;
+	border-radius: 25px;
+	background-color: white;
+    border: 3px solid white;
+    flex-direction: column;
+ }
+.Afficher 
+{
+	text-decoration: none;
+    margin: 2em;
+    font-size: 1.3em;
+    color:black;
+    font-weight: bold;
+}
+.Afficher:hover
+{
+	color:#22ece3;
+}
+.Afficher:visited
+{
+	color:black;
+}
+/* CSS section : aside */
+aside
+{
+	background-color: #F2F2F2;
+	width: 35%;
+	border-radius: 35px;
+	margin-bottom: 2em;
+}
+aside img
+{
+	width: 12em;
+	height: 10em;
+	border-radius: 20px 0px 0px 20px;
+}
+aside figcaption
+{
+	width: 14em;
+}
+aside h1
+{
+	margin-bottom: 0.5em;
+}
+aside a
+{
+	display: flex;
+	align-items: center;
+}
+aside div
+{
+	height: 89%;
+	margin-top: 0.5em;
+	display: flex;
+	flex-direction: column;
+}
+aside figcaption
+{
+	padding: 0.3em;
+}
+.imageaside
+{
+	display: flex;
+	flex-wrap: wrap;
+	border: 3px solid white;
+    border-radius: 20px;
+    background-color: white;
+}
+.etoileaside
+{
+	display: flex;
+	flex-direction: row;
+	height: 1em;
+    margin-top: 1em;
+}
+/* CSS section : article activités */
+.articledeux
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-content: space-around;
+	width: 100%;
+}
+.article2
+{
+	width: 100%;
+	background-color: #F2F2F2;
+	border-radius: 35px;
+	margin-bottom: 2em;
+}
+.imgarticle2
+{
+	width: 18.5em;
+    height: 27em;
+    border-radius: 20px 20px 0px 0px;
+}
+.imgarticle2a
+{
+	width: 18.5em;
+    height: 12em;
+    border-radius: 20px 20px 0px 0px;
+}
+/* CSS footer */
+footer
+{
+	display: flex;
+	background-color: #F2F2F2;
+	padding: 1em 0em 1em 2em;
+}
+footer div
+{
+	width: 33%;
+}
+footer a
+{
+	text-decoration: none;
+	color: black;
+}
+.lienfooter:hover
+{
+	color:#22ece3;		
+}
+.lienfooter:visited
+{
+	color: black;
+}
